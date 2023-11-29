@@ -1,0 +1,36 @@
+
+/*a continuacion los estilos para los elementos que serán generales*/
+
+body
+{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*estilos para el header general debidamente comentados*/
+
+a.navbar-brand /*para separar el logo del borde*/
+{
+    padding-left: 10%;
+}
+div.collapse /*para separar los items del header del borde*/
+{
+    display: flex;
+    justify-content:flex-end;
+    padding-right: 10%;
+}
+#logo /*para independizar el logo de los demas items del header*/
+{
+    display: flex;
+    justify-content:flex-start;
+}
+
+nav.navbar-custom /*color de fondo y opacidad para el header*/
+{
+    background-color:rgb(128, 0, 43);
+    opacity: 80%;  
+}
+.navbar-nav li /*para dar espacio entre items*/
+{
+    margin-right: 20px;
+}
