@@ -34,3 +34,10 @@ nav.navbar-custom /*color de fondo y opacidad para el header*/
 {
     margin-right: 20px;
 }
+.flex-container /*para posicionar en el eje x al boton redirigible a categorias*/
+{
+    display: flex;
+    justify-content: end;
+    opacity: 50%;
+    padding-right: 12%;
+}
