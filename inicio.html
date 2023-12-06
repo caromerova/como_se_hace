@@ -13,7 +13,7 @@
     <!--header general-->
     <!--aqui pondremos el logo-->
     <nav class="navbar navbar-expand-lg navbar-custom">
-        <a class="navbar-brand" href="#"><img src="/imagenes/icono.png" alt=""></a>
+        <a class="navbar-brand" href="/inicio.html"><img src="/imagenes/icono.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -52,7 +52,7 @@
 <body>
   <!--agregaremos el redirigible a la vista CATEGORIAS-->
   <div class="flex-container">
-<button type="button" class="btn btn-info"><b>CATEGORIAS</b></button>
+<a href="/categorias.html"><button type="button" class="btn-info"><b><mark>CATEGORIAS</mark></b></button></a>
 </div>
 <br>
 <!--agregaremos botones con tematicas para que se llame la atencion a dar clik-->
@@ -92,6 +92,84 @@
     </div>
   </div>
 </div>
+<hr>
+<br>
+<br>
+<!--agregaremos un cuadro jumbotron de bootstrap y lo editaremos  para plasmar el input del  tema que el usuario desea filtrar-->
+ <div class="flex-container1">
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+        <div id="filtrado" class="card text-center">
+          <div class="card-header"> <!--aqui colocamos el header del jumbotron-->
+              Que quieres aprender hoy?
+            <br>
+            <br>
+            <ul class="nav nav-pills card-header-pills">
+              <li class="nav-item">
+                <a class="nav-link active" href="#"><img src="/imagenes/icons8-flecha-izquierda-larga-50.png" alt="" srcset=""></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="/imagenes/icons8-flecha-hacia-adelante-50.png" alt="" srcset=""></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="/inicio.html"><img src="/imagenes/icons8-casa-manzana-48.png" alt="" srcset=""></a>
+              </li>
+              <input type="text" name="aprender" id="aprender" placeholder="usa una palabra clave">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="/imagenes/icons8-search-100.png" alt="" srcset=""></a>
+              </li>
+            </ul>
+          </div>
+          <div class="card-body">
+  <div class="flex-container2">  <!--aqui colocamos el cuadro dentro del jumbotron-->
+  <div class="card" style="width: 20rem; height: 50rem; background-color: black;margin-top: 7%;margin-bottom: 7%;border: 3px solid #f7f5f5">
+    <li class="list-group-item" style="background-color: steelblue;"><b>Temas Tecnológicos</b></li>
+    <ul class="list-group list-group-flush">
+      <img class="card-img-top" src="/imagenes/icono.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title" style="color: white;" >Aprende simple y profundo</h5>
+      <p class="card-text" style="color: white;"><i>Una gran variedad de temas tecnologicos esperando a ser descubiertos.</i></p>
+    </div>
+      <li class="list-group-item"  style="background-color:rgb(255, 187, 0)"><a href="/categorias.html">categorizados</a></li>
+      <li class="list-group-item" style="background-color:slategray"><a href="/categorias.html">en español y en ingles</a></li>
+      <li class="list-group-item" style="background-color: yellowgreen;"><a href="/inicio_sesion.html">continuar aprendiendo:</a></li>
+    </ul>
+    <br><br><br><br>
+    <div class="card-body">
+      <a href="#" class="card-link">Feedback</a>
+      <a href="#" class="card-link">Ayuda</a>
+    </div>
+    <hr>
+  </div>
+  </div>
+  <br>
+            <a href="/inicio_sesion.html" class="btn btn-success">Inicia Sesion</a>
+            <br><br>
+            <div class="card-footer text-muted">
+              © <small><b>Como_Se_Hace</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <br>
+</div> 
+  <hr>
+  <br>
+
+    
+
+
+
+
+
+
     
 
 
