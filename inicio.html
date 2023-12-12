@@ -95,12 +95,44 @@
 <hr>
 <br>
 <br>
-<!--agregaremos un cuadro jumbotron de bootstrap y lo editaremos  para plasmar el input del  tema que el usuario desea filtrar-->
+<!--agregaremos un contenedor al costado izquierdo que muestre los TEMAS MAS VISTOS-->
  <div class="flex-container1">
 <div class="container">
   <div class="row">
     <div class="col-sm">
-      One of three columns
+        <div class="card" style="width: 20rem; height: 70rem; background-color:rgb(101, 189, 181);margin-top: 7%;margin-bottom: 7%;border: 3px solid #030303">
+          <li class="list-group-item" style="background-color: steelblue;"><b>Los mas vistos</b></li>
+          <ul class="list-group list-group-flush">
+            <img class="card-img-top" src="/imagenes/git.jpg" alt="Card image cap">
+            <br>
+            <br>
+          <div class="card-body">
+            <h5 class="card-title" style="color: white;"><mark>Ponte al dia</mark></h5>
+            <p class="card-text" style="color: white;"><i>Estos son los temas tecnologicos mas estudiados por la comunidad tecnologica en nuestra plataforma de aprendizaje gratuita.</i></p>
+          </div>
+          <br>
+          <br>
+            <li class="list-group-item"  style="background-color:rgb(255, 187, 0)"><b>GitLab</b><a href="/categorias.html">ver</a></li>
+            <li class="list-group-item" style="background-color:slategray"><b>Git y Github</b><a href="/categorias.html">ver</a></li>
+            <li class="list-group-item" style="background-color: yellowgreen;"><b>Balsamiq</b><a href="/inicio_sesion.html">ver</a></li>
+          </ul>
+          <br><br><br><br>
+          <div class="card-body">
+            <h5><mark>Nuestros recomendados</mark></h5>
+            <br>
+            <a href="/categorias.html" class="card-link"><b>IDE visual studio</b></a><br><hr>
+            <a href="/categorias.html" class="card-link"><b>CARD .NET</b></a><br><hr>
+            <a href="/categorias.html" class="card-link"><b>C#</b></a><br><hr>
+            <a href="/categorias.html" class="card-link"><b>Python</b></a><br><hr>
+            <a href="/categorias.html" class="card-link"><b>pensamiento logico</b></a><br><hr>
+            <a href="/categorias.html" class="card-link"><b>ingles principiante</b></a>
+          </div>
+        </div>
+        <h5><b><i>
+          "Success is not final, failure is not fatal: It is the courage to continue that counts."</b><br>
+          - Winston Churchill</i></h5> <img src="/imagenes/wiston.jpg" alt="" srcset="" style="width: 7rem; height: 7rem;">
+          <br>
+          <br>
     </div>
     <div class="col-sm">
         <div id="filtrado" class="card text-center">
@@ -160,24 +192,67 @@
   </div>
   <br>
 </div> 
-  <hr>
   <br>
-
-    
-
-
-
-
-
-
-    
-
-
 
 
 <footer>
+  <div class="flex-container4" >
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <div class="card" style= "margin-top: 3%;margin-bottom: 3%;border: 3px solid #0a0a0a; background-color: rgb(34, 48, 43);"> 
+       <ul>
+        <li><a href="">iniciar sesion</a></li>
+        <li><a href="">registrarse</a></li>
+        <li><a href="">categorias</a></li>
+        <li><a href="">documentacion</a></li>
+        <li><a href="">sobre nosotros</a></li>
+        <li><a href="">contactenos</a></li>
+       </ul>
+      </div>
+      <hr>
+      </div>
+      
 
+      <div class="col-sm">
+        <div class="card" style= "margin-top: 3%;margin-bottom: 1%;border: 3px solid #0a0a0a;"> 
+        <div class="card-footer text-muted">
+          <!--agregamos otra grilla de bootstrap ahora con 2 columnas unicamente para colocar 2 imagenes en el centro del footer-->
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <img src="/imagenes/footer2.png" alt="" srcset="" style="width: 7rem; height: 6.1rem; margin-top: 0;">
+              </div>
+              <div class="col-sm">
+                <img src="/imagenes/development.png" alt="" srcset=""style="width: 7rem; height: 6.1rem; margin-top: 0;"><br>
+          <br>
+            </div>
+            </div>
+          </div>
+           <small style="display: flex; justify-content: center;"><b>© Como_Se_Hace</b></small>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+      <div class="col-sm">
+        <div class="card" style= "margin-top: 3%;margin-bottom: 3%;border: 3px solid #0a0a0a; background-color: rgb(34, 48, 43);">
+          <address style="color: white; padding-left: 4%;"><i>contrata o colabora con nuestros servicios de desarrollo</i>
+            <ul>
+                  <li><a href="https://discord.com/Romero#7396/" target="_blank"><img src="/imagenes/discord.png" style="width: 3rem; height: 3.3rem;"
+                    alt="" srcset=""></a></li>
+                    <li><a href="https://www.linkedin.com/in/alex-romero-b626b526b/" target="_blank"><img src="/imagenes/icons8-linkedin-26.png"
+                      alt="" srcset=""></a></li>
+              </ul>
+        </address>
+      </div>
+      <hr>
+    </div>
+    </div>
+  </div>
 </footer>
+</div>
+<br>
 
 
 

@@ -52,7 +52,7 @@ nav.navbar-custom /*color de fondo y opacidad para el header*/
 #filtrado
 {
     border: 3px solid #222;
-    margin-top: 2%;
+    margin-top: 7%;
     margin-bottom: 2%;
     
 }
@@ -75,6 +75,20 @@ nav.navbar-custom /*color de fondo y opacidad para el header*/
     opacity: 90%;
     background-color: bisque;
     border: 2px solid #222;
-    
+     
+}
+
+
+.flex-container4 /*para darle estilos a el footer*/
+{
+    margin-top: 15%;
+    border: 2px solid #7c7777;
     
 }
+
+/*para posicionar una de las imagenes en el footer*/
+.flex-container5
+{
+    padding-right: 1%;
+}
+
